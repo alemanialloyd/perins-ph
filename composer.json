@@ -1,5 +1,5 @@
 {
     "require": {
-        "google/cloud-firestore": "^1.21"
+        "google/cloud-firestore": "^0.175.0"
     }
 }
