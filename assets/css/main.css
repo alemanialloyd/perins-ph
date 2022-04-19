@@ -1,0 +1,175 @@
+.onone {
+    overflow: hidden!important;
+}
+nav {
+    background-color: transparent!important;
+    box-shadow: 0 0!important;
+}
+
+nav a {
+    color: #333!important;
+    font-weight: 500!important;
+}
+
+#backdrop {
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    height: 100vh;
+    width: auto;
+    display: block;
+}
+
+.btn, .btn-large {
+    border-radius: 100px!important;
+    text-transform: none!important;
+}
+
+.pnone {
+    padding: 0 0!important;
+}
+
+.valign {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    right: 0;
+}
+
+.fheight {
+    height: 100vh!important;
+    position: absolute!important;
+    display: block;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+}
+
+.tlarge {
+    font-size: 2rem!important;
+}
+
+.tmedium {
+    font-size: 1.5rem!important;
+}
+
+.tsmall {
+    font-size: 1rem!important;
+}
+
+.mtop {
+    margin-top: 3rem!important;
+}
+
+.mbottom {
+    margin-bottom: 3rem!important;
+}
+
+img {
+    max-width: 100%;
+}
+
+.dblock {
+    display: block!important;
+}
+
+.fnone {
+    float: none!important
+}
+
+.hcenter {
+    margin: 0 auto!important;
+}
+
+.fwidth {
+    width: 100%;
+}
+
+input[type="submit"] {
+    color: white!important
+}
+
+
+#main {
+    display: block;
+    padding-left: 0px;
+}
+
+.stitle {
+    color: rgba(0, 0, 0, 0.87);
+    display: block;
+    font-size: 16px;
+    font-weight: 500;
+    height: 48px;
+    line-height: 48px;
+    padding: 0 32px;
+}
+
+.mnone {
+    margin: 0 0!important;
+}
+
+#loader {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: white;
+    z-index: 99999;
+}
+
+#loader > div {
+    width: 64px;
+}
+
+.hpadding {
+    padding: 0 2rem!important;
+}
+
+.wauto {
+    width: auto!important;
+}
+
+.ignore {
+    pointer-events: none!important;
+}
+
+.sidenav li > a.active {
+    background-color: #ffa000!important;
+    color: #FFFFFF !important;
+}
+
+.sidenav li > a.active > i {
+    color: #FFFFFF !important;
+}
+
+@media only screen and (min-width: 992px) {
+    .mtop {
+        margin-top: 5rem!important;
+    }
+    
+    .mbottom {
+        margin-bottom: 5rem!important;
+    }
+
+    #main {
+        padding-left: 300px;
+    }
+
+    .modal {
+        width: 25%!important;
+    }
+
+    
+    .hpadding {
+        padding: 0 6rem!important;
+    }
+}
