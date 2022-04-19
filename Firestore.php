@@ -13,7 +13,7 @@ class Firestore {
     {
         $this->db = new FirestoreClient([
             'projectId' => 'perins',
-            'keyFilePath' =>  __DIR__.'/secret/perins-51235f3a0eb3.json'
+            // 'keyFilePath' =>  __DIR__.'/secret/perins-51235f3a0eb3.json'
         ]);
 
         $this->name = $collection;
