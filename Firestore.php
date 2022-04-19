@@ -12,8 +12,8 @@ class Firestore {
     public function __construct(string $collection)
     {
         $this->db = new FirestoreClient([
-            'projectId' => 'hospital-appointment-sys-2c91e',
-            'keyFilePath' =>  __DIR__.'/secret/hospital-appointment-sys-2c91e-firebase-adminsdk-8aw6f-957d0fe79f.json'
+            'projectId' => 'perins',
+            'keyFilePath' =>  __DIR__.'/secret/perins-51235f3a0eb3.json'
         ]);
 
         $this->name = $collection;
